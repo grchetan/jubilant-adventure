@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --f-primary: 31 91 65;
+  --f-deep: 18 55 42;
+  --f-primary-fg: 255 255 255;
+  --f-bg: 250 246 237;
+  --f-fg: 26 32 28;
+  --f-card: 255 253 248;
+  --f-muted: 243 236 222;
+  --f-muted-fg: 108 112 103;
+  --f-border: 230 221 204;
+  --f-font-display: "Fraunces", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --f-font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --f-radius: 16px;
+  --f-radius-btn: 10px;
+  --f-shadow: 0 2px 4px rgb(120 80 30 / .05), 0 8px 24px rgb(120 80 30 / .07);
+  --f-shadow-lift: 0 14px 36px rgb(120 80 30 / .14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--f-font-body, "Inter", sans-serif);
+  background-color: rgb(var(--f-bg));
+  color: rgb(var(--f-fg));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--f-border));
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--f-muted-fg));
+}

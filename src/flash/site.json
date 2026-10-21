@@ -1,0 +1,822 @@
+{
+  "name": "ScanDish",
+  "lang": "English",
+  "ui": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "our_services": "Our Services",
+    "learn_more": "Learn More",
+    "form_success": "Thank you! We will be in touch soon.",
+    "form_error": "Oops! Something went wrong. Please try again.",
+    "done_message": "Your website is ready! Feel free to ask for any changes.",
+    "skip_to_content": "Skip to main content",
+    "menu": "Menu",
+    "free_badge": "Free forever",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "formUrl": "/api/contact",
+  "theme": {
+    "accent": "forest",
+    "mode": "light",
+    "style": "warm"
+  },
+  "nap": {
+    "name": "ScanDish"
+  },
+  "pages": [
+    {
+      "kind": "home",
+      "path": "/",
+      "title": "ScanDish — Free Digital Menus & QR Codes for Restaurants",
+      "description": "Create a free digital menu, share it with one QR code and update prices or sold-out dishes instantly. Built for small restaurants, cafes and food stalls. No charges, ever.",
+      "types": [
+        "announcement",
+        "navbar",
+        "hero",
+        "logos",
+        "features",
+        "steps",
+        "guarantee",
+        "testimonials",
+        "cta",
+        "footer",
+        "stickybar"
+      ],
+      "sections": {
+        "announcement": {
+          "text": "ScanDish is free for every restaurant — no card, no charges.",
+          "link": "Create your menu"
+        },
+        "navbar": {
+          "brand": "ScanDish",
+          "cta": "Create now",
+          "ctaHref": "/create",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/shop",
+              "label": "Shop"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "hero": {
+          "variant": "scan",
+          "eyebrow": "For restaurants, cafes & food stalls",
+          "title": "Your menu, one scan away.",
+          "subtitle": "Build a modern digital menu in minutes, share it with a single QR code, and never reprint a menu again. Change a price or hide a sold-out dish and it is live on every table instantly.",
+          "primaryCta": "Create now — it's free",
+          "primaryHref": "/create",
+          "secondaryCta": "How to use",
+          "secondaryHref": "/how-to-use",
+          "highlights": [
+            "Free forever — no card needed",
+            "QR code with your logo",
+            "Update in seconds"
+          ],
+          "demoShop": "Chai & Masala"
+        },
+        "logos": {
+          "title": "Built for local food businesses",
+          "items": [
+            "Small restaurants",
+            "Cafes",
+            "Food stalls",
+            "Food corners",
+            "Bakeries",
+            "Family kitchens"
+          ]
+        },
+        "features": {
+          "layout": "bento",
+          "title": "Everything included. Nothing to pay.",
+          "subtitle": "Every feature is free for every restaurant — update your menu as often as you like and never reprint a card again.",
+          "items": [
+            {
+              "icon": "ri-flashlight-line",
+              "title": "Instant menu updates",
+              "description": "Change a price or mark a dish sold out and the menu on every table is correct the next time it is scanned. No reprints, no delays."
+            },
+            {
+              "icon": "ri-qr-code-line",
+              "title": "QR with your logo",
+              "description": "Every menu gets a QR code with your logo in the centre, styled in your colours."
+            },
+            {
+              "icon": "ri-smartphone-line",
+              "title": "Manage from your phone",
+              "description": "Add categories, edit dishes and upload photos from your phone or laptop in minutes."
+            },
+            {
+              "icon": "ri-eye-off-line",
+              "title": "Sold out in one tap",
+              "description": "Hide an item the moment it runs out and switch it back on tomorrow morning. Guests always see what is actually available."
+            }
+          ]
+        },
+        "showcase": {
+          "title": "From your menu to their phone",
+          "subtitle": "Three simple steps, no designer and no printer involved.",
+          "items": [
+            {
+              "icon": "ri-edit-2-line",
+              "title": "Build your digital menu",
+              "description": "Add your categories and fill them with dishes, prices, photos and veg or non-veg tags. A live preview shows exactly what guests will see.",
+              "points": [
+                "Categories you can reorder",
+                "Live menu preview",
+                "Veg and non-veg tags"
+              ]
+            },
+            {
+              "icon": "ri-qr-scan-2-line",
+              "title": "Share one QR code",
+              "description": "ScanDish generates a QR code for your menu link with your logo in the middle. Download it as PNG or SVG, or use the print-ready table card.",
+              "points": [
+                "Logo in the centre",
+                "PNG and SVG download",
+                "Print-ready layout"
+              ]
+            },
+            {
+              "icon": "ri-refresh-line",
+              "title": "Update any time",
+              "description": "Toggle an item unavailable and it changes right away. Edit prices between services and the same QR code keeps working.",
+              "points": [
+                "Hide sold-out dishes",
+                "Edit from your phone",
+                "Always current"
+              ]
+            }
+          ]
+        },
+        "steps": {
+          "title": "Live in three quick steps",
+          "items": [
+            {
+              "title": "Tap Create now",
+              "description": "Type your restaurant name and your menu link is ready in a second. No sign-up, no card, nothing to install."
+            },
+            {
+              "title": "Pick a design",
+              "description": "Choose a colour, background and corner style, then add your logo in the middle. The preview updates as you tap."
+            },
+            {
+              "title": "Download and print",
+              "description": "Save the QR code as PNG or SVG, print the table card and put it on every table. Change dishes any time — the same code keeps working."
+            }
+          ]
+        },
+        "gallery": {
+          "title": "Made for real tables",
+          "subtitle": "A small kitchen, a simple QR code, a menu that is always right.",
+          "items": [
+            {
+              "caption": "QR code stand on a cafe table"
+            },
+            {
+              "caption": "Guest scanning the menu on a phone"
+            },
+            {
+              "caption": "Restaurant owner updating dishes on a laptop"
+            }
+          ]
+        },
+        "cases": {
+          "title": "What changes for your place",
+          "subtitle": "Three everyday situations ScanDish solves.",
+          "items": [
+            {
+              "tag": "Cafe",
+              "title": "Lunch rush price change",
+              "summary": "The owner raised a price during the break and the new menu was live before the next table sat down — no reprinting, no crossed-out lines."
+            },
+            {
+              "tag": "Food stall",
+              "title": "Sold out in seconds",
+              "summary": "A popular dish ran out mid-service. The owner switched it off from the phone and guests stopped asking for it."
+            },
+            {
+              "tag": "Small restaurant",
+              "title": "One card for every table",
+              "summary": "One printed table card with the QR code replaced a stack of laminated menus that had to be kept current by hand."
+            }
+          ]
+        },
+        "guarantee": {
+          "title": "Free forever. Really.",
+          "text": "ScanDish is free for every restaurant: every feature, unlimited menu edits and unlimited scans. No subscription, no card and no hidden charges — just a menu that is always correct.",
+          "perks": [
+            "No credit card needed",
+            "Unlimited updates",
+            "PNG and SVG QR download",
+            "Support included"
+          ]
+        },
+        "testimonials": {
+          "title": "Loved by small kitchens",
+          "items": [
+            {
+              "name": "Cafe owner",
+              "role": "Small cafe",
+              "quote": "I changed a sold-out dish during lunch service and the menu on the tables was updated straight away. No reprinting, no fuss."
+            },
+            {
+              "name": "Restaurant manager",
+              "role": "Neighbourhood restaurant",
+              "quote": "Setting up our menu took one evening. The QR code with our logo on the table stands looks clean and guests scan it without asking."
+            },
+            {
+              "name": "Food stall owner",
+              "role": "Street food stall",
+              "quote": "I run my food stall from one phone. Prices, photos, availability — everything is in one place and easy to edit."
+            }
+          ]
+        },
+        "faq": {
+          "title": "Questions, answered",
+          "items": [
+            {
+              "question": "Is ScanDish really free?",
+              "answer": "Yes. Every feature is free for your restaurant. There is no subscription, no credit card and no hidden charge for menu edits or QR downloads."
+            },
+            {
+              "question": "Do I need any technical skills?",
+              "answer": "No. You sign up with your email, fill in your restaurant details and add menu items. The menu preview updates as you type."
+            },
+            {
+              "question": "How do customers see my menu?",
+              "answer": "Every restaurant gets a unique link and a QR code. Guests scan the code and your menu opens instantly on their phone — no app to install."
+            },
+            {
+              "question": "How fast do menu changes appear?",
+              "answer": "Instantly. The moment you save a price, photo or availability change, the public menu shows the new version. The same QR code keeps working."
+            },
+            {
+              "question": "Can I use my own logo in the QR code?",
+              "answer": "Yes. Your logo sits in the centre of the code while the surrounding pattern stays clear, so it still scans reliably with a normal phone camera."
+            },
+            {
+              "question": "Can I order printed QR stands and posters?",
+              "answer": "Printed table stands, posters and stickers are coming soon. Until then you can download your QR code as PNG or SVG and use the print-ready layout."
+            }
+          ]
+        },
+        "contact": {
+          "title": "Get started with ScanDish",
+          "subtitle": "Tell us about your place and we will help you set up your first digital menu.",
+          "note": "Free forever — no card and no charges.",
+          "submit": "Request setup help",
+          "fields": [
+            {
+              "type": "text",
+              "label": "Restaurant name",
+              "placeholder": "e.g. Corner Cafe"
+            },
+            {
+              "type": "email",
+              "label": "Email",
+              "placeholder": "you@example.com"
+            },
+            {
+              "type": "select",
+              "label": "Type of business",
+              "placeholder": "Choose one",
+              "options": [
+                "Restaurant",
+                "Cafe",
+                "Food stall",
+                "Food corner",
+                "Other"
+              ]
+            },
+            {
+              "type": "textarea",
+              "label": "Anything we should know?",
+              "placeholder": "Number of tables, questions…"
+            }
+          ]
+        },
+        "cta": {
+          "title": "Put your menu on every table",
+          "subtitle": "Free forever. Create your digital menu and QR code today, then change anything from your phone.",
+          "button": "Create now"
+        },
+        "footer": {
+          "brand": "ScanDish",
+          "tagline": "Digital menus and custom QR codes for small restaurants, cafes and food stalls. Free to use, always up to date.",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/create",
+              "label": "Create now"
+            },
+            {
+              "href": "/dashboard",
+              "label": "Dashboard"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "stickybar": {
+          "button": "Create now"
+        }
+      },
+      "images": {
+        "hero": {
+          "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+          "alt": "ScanDish digital menu on a restaurant table"
+        },
+        "gallery": {
+          "src": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1200&q=80",
+          "alt": "QR code stand on a cafe table"
+        },
+        "gallery2": {
+          "src": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80",
+          "alt": "Guest scanning the menu on a phone"
+        },
+        "gallery3": {
+          "src": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=80",
+          "alt": "Restaurant owner updating dishes on a laptop"
+        },
+        "showcase": {
+          "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+          "alt": "Building a digital menu"
+        },
+        "showcase2": {
+          "src": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&w=1000&q=80",
+          "alt": "Sharing a menu with a QR code"
+        },
+        "showcase3": {
+          "src": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1000&q=80",
+          "alt": "Updating the menu any time"
+        }
+      }
+    },
+    {
+      "kind": "about",
+      "path": "/about",
+      "title": "About ScanDish — Digital Menus for Small Restaurants",
+      "description": "ScanDish helps small restaurants, cafes and food stalls create digital menus, share them with a QR code and update them instantly. Free to use.",
+      "types": [
+        "navbar",
+        "hero",
+        "textblock",
+        "stats",
+        "testimonials",
+        "cta",
+        "footer",
+        "stickybar"
+      ],
+      "sections": {
+        "navbar": {
+          "brand": "ScanDish",
+          "cta": "Create now",
+          "ctaHref": "/create",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/shop",
+              "label": "Shop"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "hero": {
+          "eyebrow": "About us",
+          "title": "Menus that keep up with your kitchen",
+          "subtitle": "We build simple digital menus and QR codes so small restaurants, cafes and food stalls can share their menu from a phone or laptop — no printing needed.",
+          "primaryCta": "Explore our services",
+          "secondaryCta": "Get in touch"
+        },
+        "textblock": {
+          "title": "Why we started ScanDish",
+          "body": "Updating a printed menu means reprints, wasted paper and prices that are out of date the moment they change. ScanDish was built for small kitchens that need something faster: create your menu, share one QR code, and edit items anytime from your phone or laptop. Sold-out dishes can be hidden in seconds, prices stay current, and guests see a clean, mobile-first menu right after scanning. It is free to use, because a small food corner should not need a budget to look professional."
+        },
+        "stats": {
+          "items": [
+            {
+              "value": "2",
+              "label": "Core tools: menu and QR"
+            },
+            {
+              "value": "Phone or laptop",
+              "label": "Manage from anywhere"
+            },
+            {
+              "value": "PNG & SVG",
+              "label": "QR download formats"
+            },
+            {
+              "value": "Free",
+              "label": "Every feature, every restaurant"
+            }
+          ]
+        },
+        "testimonials": {
+          "title": "What restaurant owners say",
+          "items": [
+            {
+              "name": "Cafe owner",
+              "role": "Small cafe",
+              "quote": "We changed our lunch prices during service and the QR menu was updated before the next table scanned it."
+            },
+            {
+              "name": "Restaurant manager",
+              "role": "Neighbourhood restaurant",
+              "quote": "One QR code on every table replaced our printed menus, and hiding sold-out dishes takes a tap."
+            },
+            {
+              "name": "Food stall owner",
+              "role": "Street food stall",
+              "quote": "Setting up our categories and items took minutes on my phone during a quiet afternoon."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Ready to put your menu behind a QR code?",
+          "subtitle": "Create your digital menu, customize your QR code and share it with guests today.",
+          "button": "Get started free"
+        },
+        "footer": {
+          "brand": "ScanDish",
+          "tagline": "Digital menus and custom QR codes for small restaurants, cafes and food stalls. Free to use, always up to date.",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/create",
+              "label": "Create now"
+            },
+            {
+              "href": "/dashboard",
+              "label": "Dashboard"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "stickybar": {
+          "button": "Create your free menu"
+        }
+      },
+      "images": {
+        "textblock": {
+          "src": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+          "alt": "The ScanDish team at work"
+        }
+      }
+    },
+    {
+      "kind": "services",
+      "path": "/services",
+      "title": "ScanDish Services: Digital Menus & QR Codes",
+      "description": "See how ScanDish builds your digital menu and QR code: what each service solves, how setup works, and answers to common questions. Free to use.",
+      "types": [
+        "navbar",
+        "hero",
+        "features",
+        "steps",
+        "faq",
+        "cta",
+        "footer",
+        "stickybar"
+      ],
+      "sections": {
+        "navbar": {
+          "brand": "ScanDish",
+          "cta": "Create now",
+          "ctaHref": "/create",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/shop",
+              "label": "Shop"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "hero": {
+          "eyebrow": "Our services",
+          "title": "Digital menus and QR codes, explained",
+          "subtitle": "Two simple services that replace printed menus for good: a digital menu you can update in seconds, and a QR code that opens it on any phone. Both are free.",
+          "primaryCta": "Get started free",
+          "secondaryCta": "See how it works"
+        },
+        "features": {
+          "layout": "cards",
+          "title": "What each service solves",
+          "subtitle": "Built for small restaurants, cafes and food stalls that want a modern menu without extra hassle.",
+          "items": [
+            {
+              "icon": "ri-file-list-3-line",
+              "title": "Digital menu creation",
+              "description": "No more reprinting when a dish changes. Edit items, prices and photos from your phone or laptop and the menu updates instantly."
+            },
+            {
+              "icon": "ri-qr-code-line",
+              "title": "QR code generator",
+              "description": "Every menu gets its own QR code with your logo in the centre. Download it as PNG or SVG and put it on tables, walls or stickers."
+            },
+            {
+              "icon": "ri-smartphone-line",
+              "title": "Manage from anywhere",
+              "description": "Add a category, mark a dish sold out or change a price while service is running. No designer or printer needed."
+            },
+            {
+              "icon": "ri-leaf-line",
+              "title": "Clear veg and sold-out tags",
+              "description": "Guests instantly see veg and non-veg tags and sold-out items, so there are fewer questions for your staff."
+            },
+            {
+              "icon": "ri-flashlight-line",
+              "title": "Instant mobile menu",
+              "description": "The public menu opens fast after a scan, with a sticky category bar and large tap targets that work on small screens."
+            },
+            {
+              "icon": "ri-customer-service-2-line",
+              "title": "Support when you need it",
+              "description": "Reach our team by email or WhatsApp straight from your dashboard or the public menu page."
+            }
+          ]
+        },
+        "steps": {
+          "title": "How it works",
+          "items": [
+            {
+              "title": "Sign up for your account",
+              "description": "Create your restaurant account with email and password. Only you can see and edit your own menu."
+            },
+            {
+              "title": "Set up your menu",
+              "description": "Add your restaurant name, logo and starting categories, then fill in items with name, description and price. Photos and veg tags are optional extras."
+            },
+            {
+              "title": "Get your link and QR code",
+              "description": "Your menu gets a clean public link and a matching QR code. Choose colours and corner style, then download PNG or SVG."
+            },
+            {
+              "title": "Place and update",
+              "description": "Put the QR code on tables or walls. From then on, every change you make shows up the next time a guest scans."
+            }
+          ]
+        },
+        "faq": {
+          "title": "Common questions",
+          "items": [
+            {
+              "question": "Do I need a printed menu at all?",
+              "answer": "No. Guests scan the QR code and read your menu on their phone. Many restaurants keep one or two printed copies as a backup, but you never need them for updates."
+            },
+            {
+              "question": "Can I change my menu after the QR code is printed?",
+              "answer": "Yes. The QR code only points to your menu link, so you can change items, prices and availability any time and the same code keeps working."
+            },
+            {
+              "question": "Will the QR code with my logo still scan?",
+              "answer": "Yes. Your logo sits in the centre of the code while the surrounding pattern stays clear, so it scans reliably with a normal phone camera."
+            },
+            {
+              "question": "What can I do from my phone?",
+              "answer": "Everything in your dashboard: add categories, edit items, mark dishes as sold out and download a new QR code. A laptop works the same way if you prefer a bigger screen."
+            },
+            {
+              "question": "Does ScanDish cost anything?",
+              "answer": "No. Every feature is free, including QR downloads and unlimited menu updates. There is no card, no trial and no hidden charge."
+            },
+            {
+              "question": "Do you handle online orders or payments?",
+              "answer": "Not yet. ScanDish is focused on digital menus and QR codes today, with room to grow into ordering and payments later."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Ready to replace your printed menu?",
+          "subtitle": "Create your digital menu and QR code in a few simple steps. Free, with no card needed.",
+          "button": "Get started free"
+        },
+        "footer": {
+          "brand": "ScanDish",
+          "tagline": "Digital menus and custom QR codes for small restaurants, cafes and food stalls. Free to use, always up to date.",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/create",
+              "label": "Create now"
+            },
+            {
+              "href": "/dashboard",
+              "label": "Dashboard"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "stickybar": {
+          "button": "Create your free menu"
+        }
+      }
+    },
+    {
+      "kind": "contact",
+      "path": "/contact",
+      "title": "Contact ScanDish | Digital Menu & QR Support",
+      "description": "Get in touch with ScanDish about digital menus and QR codes for your restaurant, cafe or food stall. Free to use, we reply fast.",
+      "types": [
+        "navbar",
+        "hero",
+        "contact",
+        "footer",
+        "stickybar"
+      ],
+      "sections": {
+        "navbar": {
+          "brand": "ScanDish",
+          "cta": "Create now",
+          "ctaHref": "/create",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/shop",
+              "label": "Shop"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "hero": {
+          "eyebrow": "Contact",
+          "title": "Talk to the ScanDish team",
+          "subtitle": "Questions about digital menus, QR codes or setting up your restaurant account? Send us a message and we will get back to you.",
+          "primaryCta": "Send a message",
+          "secondaryCta": "See how it works"
+        },
+        "contact": {
+          "title": "Get in touch",
+          "subtitle": "Tell us about your restaurant and what you need. We usually reply within one working day.",
+          "note": "We only use your details to reply to your message.",
+          "submit": "Send message",
+          "fields": [
+            {
+              "type": "text",
+              "label": "Restaurant name",
+              "placeholder": "e.g. Corner Cafe"
+            },
+            {
+              "type": "email",
+              "label": "Email",
+              "placeholder": "you@example.com"
+            },
+            {
+              "type": "select",
+              "label": "What can we help with?",
+              "placeholder": "Choose a topic",
+              "options": [
+                "Digital menu setup",
+                "QR code generator",
+                "Account and login",
+                "Shop and printed QR products",
+                "Something else"
+              ]
+            },
+            {
+              "type": "textarea",
+              "label": "Message",
+              "placeholder": "Tell us a little about your menu and your questions"
+            }
+          ]
+        },
+        "footer": {
+          "brand": "ScanDish",
+          "tagline": "Digital menus and custom QR codes for small restaurants, cafes and food stalls. Free to use, always up to date.",
+          "links": [
+            {
+              "href": "/how-to-use",
+              "label": "How to use"
+            },
+            {
+              "href": "/create",
+              "label": "Create now"
+            },
+            {
+              "href": "/dashboard",
+              "label": "Dashboard"
+            },
+            {
+              "href": "/dashboard/menu",
+              "label": "My Menu"
+            },
+            {
+              "href": "/dashboard/qr",
+              "label": "QR Code"
+            },
+            {
+              "href": "/support",
+              "label": "Support"
+            }
+          ]
+        },
+        "stickybar": {
+          "button": "Create your free menu"
+        }
+      }
+    }
+  ]
+}
